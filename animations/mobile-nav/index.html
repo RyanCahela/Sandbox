@@ -4,13 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>animated mobile nav</title>
   </head>
   <body>
-    <header>
+    <header class="header">
+      <!-- close icon -->
+      <svg
+        class="icon-close"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="_02_User" data-name="02 User">
+          <path
+            d="m25 512a25 25 0 0 1 -17.68-42.68l462-462a25 25 0 0 1 35.36 35.36l-462 462a24.93 24.93 0 0 1 -17.68 7.32z"
+          />
+          <path
+            d="m487 512a24.93 24.93 0 0 1 -17.68-7.32l-462-462a25 25 0 0 1 35.36-35.36l462 462a25 25 0 0 1 -17.68 42.68z"
+          />
+        </g>
+      </svg>
+      <!-- hamburger icon -->
+      <svg
+        class="icon-hamburger"
+        viewBox="0 0 16 16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="_31" data-name="31">
+          <path d="m15.5 4h-15a.5.5 0 0 1 0-1h15a.5.5 0 0 1 0 1z" />
+          <path d="m15.5 9h-15a.5.5 0 0 1 0-1h15a.5.5 0 0 1 0 1z" />
+          <path d="m15.5 14h-15a.5.5 0 0 1 0-1h15a.5.5 0 0 1 0 1z" />
+        </g>
+      </svg>
       <nav class="nav">
-        <img src="./icons/close.svg" alt="" />
-        <img src="./icons/hamburger.svg" alt="" />
         <ul>
           <li class="nav__item" style="--i: 0">
             <a href="#">Home</a>
@@ -27,29 +53,56 @@
         </ul>
       </nav>
     </header>
-    <h1>Animated Mobile Nav</h1>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-      necessitatibus est consectetur eos atque consequuntur expedita error iure
-      omnis ea, consequatur quas, magni obcaecati. Fuga, ratione consectetur.
-      Suscipit, mollitia quidem? Excepturi veniam non qui exercitationem, earum,
-      aperiam recusandae eius voluptas fuga debitis placeat molestiae quos?
-      Accusantium eveniet accusamus, tenetur magni quod laboriosam corrupti
-      veritatis aliquid facere, numquam ab optio mollitia! Odio optio quam fuga,
-      soluta neque similique possimus dolores molestiae nostrum officiis itaque
-    </p>
-    <p>
-      quibusdam odio illo, obcaecati magni iste officia corporis! Rerum fugit
-      nisi quas alias at magnam reprehenderit accusantium quibusdam,
-      exercitationem quos saepe modi totam sint id vero doloremque quae autem
-      obcaecati minima? Eos atque ipsum repudiandae aliquam? Quam, id. Quia, est
-      natus vero harum, accusamus blanditiis repellat quas dolorem vel ipsum et
-      molestias ducimus hic aspernatur, corrupti saepe. Velit, animi repellendus
-      provident ipsum laudantium temporibus sint maxime voluptatibus
-      necessitatibus. Cumque corrupti excepturi repellat nulla rem deserunt
-      ipsum ipsam, asperiores accusamus dolorum corporis aperiam id alias
-      architecto magnam molestiae repudiandae incidunt at ullam dolores rerum
-      est officiis. Cum, itaque quos?
-    </p>
+    <div class="container">
+      <h1>Animated Mobile Nav</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+        necessitatibus est consectetur eos atque consequuntur expedita error
+        iure omnis ea, consequatur quas, magni obcaecati. Fuga, ratione
+        consectetur. Suscipit, mollitia quidem? Excepturi veniam non qui
+        exercitationem, earum, aperiam recusandae eius voluptas fuga debitis
+        placeat molestiae quos? Accusantium eveniet accusamus, tenetur magni
+        quod laboriosam corrupti veritatis aliquid facere, numquam ab optio
+        mollitia! Odio optio quam fuga, soluta neque similique possimus dolores
+        molestiae nostrum officiis itaque
+      </p>
+      <p>
+        quibusdam odio illo, obcaecati magni iste officia corporis! Rerum fugit
+        nisi quas alias at magnam reprehenderit accusantium quibusdam,
+        exercitationem quos saepe modi totam sint id vero doloremque quae autem
+        obcaecati minima? Eos atque ipsum repudiandae aliquam? Quam, id. Quia,
+        est natus vero harum, accusamus blanditiis repellat quas dolorem vel
+        ipsum et molestias ducimus hic aspernatur, corrupti saepe. Velit, animi
+        repellendus provident ipsum laudantium temporibus sint maxime
+        voluptatibus necessitatibus. Cumque corrupti excepturi repellat nulla
+        rem deserunt ipsum ipsam, asperiores accusamus dolorum corporis aperiam
+        id alias architecto magnam molestiae repudiandae incidunt at ullam
+        dolores rerum est officiis. Cum, itaque quos?
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+        necessitatibus est consectetur eos atque consequuntur expedita error
+        iure omnis ea, consequatur quas, magni obcaecati. Fuga, ratione
+        consectetur. Suscipit, mollitia quidem? Excepturi veniam non qui
+        exercitationem, earum, aperiam recusandae eius voluptas fuga debitis
+        placeat molestiae quos? Accusantium eveniet accusamus, tenetur magni
+        quod laboriosam corrupti veritatis aliquid facere, numquam ab optio
+        mollitia! Odio optio quam fuga, soluta neque similique possimus dolores
+        molestiae nostrum officiis itaque
+      </p>
+      <p>
+        quibusdam odio illo, obcaecati magni iste officia corporis! Rerum fugit
+        nisi quas alias at magnam reprehenderit accusantium quibusdam,
+        exercitationem quos saepe modi totam sint id vero doloremque quae autem
+        obcaecati minima? Eos atque ipsum repudiandae aliquam? Quam, id. Quia,
+        est natus vero harum, accusamus blanditiis repellat quas dolorem vel
+        ipsum et molestias ducimus hic aspernatur, corrupti saepe. Velit, animi
+        repellendus provident ipsum laudantium temporibus sint maxime
+        voluptatibus necessitatibus. Cumque corrupti excepturi repellat nulla
+        rem deserunt ipsum ipsam, asperiores accusamus dolorum corporis aperiam
+        id alias architecto magnam molestiae repudiandae incidunt at ullam
+        dolores rerum est officiis. Cum, itaque quos?
+      </p>
+    </div>
   </body>
 </html>
